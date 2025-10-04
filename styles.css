@@ -367,6 +367,33 @@ footer {
     font-size: 13px;
 }
 
+/* Terms Page Specific Styles */
+.terms-container {
+    max-width: 800px;
+    margin: 2rem auto 0;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem 3rem;
+}
+
+.terms-container section {
+    margin-bottom: 2rem;
+}
+
+.terms-container .section-title {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.terms-container p {
+    font-size: 0.875rem; /* 14px, reduced from default 16px */
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+}
+
 @media (max-width: 1024px) {
     .review-card {
         width: 300px; /* Adjusted for tablets */
@@ -395,6 +422,9 @@ footer {
     }
     .carousel-container {
         flex-direction: column;
+    }
+    .terms-container {
+        padding: 1.5rem;
     }
 }
 
@@ -425,14 +455,6 @@ footer {
     position: relative; /* Establish stacking context */
     z-index: 2; /* Ensure button is above the ::before overlay */
 }
-
-/*
-
-
-
-
-
-*/
 
 /* Clean Glowing V that materializes and fades */
 .v-overlay {
