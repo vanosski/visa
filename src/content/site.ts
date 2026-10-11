@@ -2,7 +2,7 @@ export const site = {
   name: "Unique Visa Business Solutions",
   shortName: "Unique Visa",
   domain: "uniquevisabusinesssolutions.com",
-  email: "contact@uniquevisabusinesssolutions.com",
+  email: "Uniquevisabusinesssolutions@gmail.com",
   phone: "9810101010",
   phoneDisplay: "98101 01010",
   hours: "Available 24/7",
